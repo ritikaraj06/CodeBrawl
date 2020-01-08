@@ -1,0 +1,19 @@
+{% load static %}
+<head>
+	<title>CodeBrawl</title>
+	<link rel="stylesheet" href="{% static 'css/reset.css' %}">
+	<link rel="stylesheet" href="{% static 'css/animate.css' %}">
+	<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+	<canvas id="canvas3"></canvas>
+{% block content %}
+<div id="container">
+	<p>Welcome to</p>
+	<h1>{ CodeBrawl }</h1>
+	<p>Click <a href="/questions/">here</a> to goto the question page</p>
+</div>
+</div>
+{% endblock %}
+<script src="{% static 'js/thunder.js' %}"></script>
+</body>
